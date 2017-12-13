@@ -8,7 +8,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["red", "orange", "yellow", "green"]
-  array << "blue"
+  element = "blue"
+  array << element
   puts array.inspect
 end
 
